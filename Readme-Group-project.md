@@ -34,7 +34,7 @@ Ensure that these are installed in your Python environment before running the pr
 
 3. **Set up the Python Environment:** Navigate to the project directory and create a virtual environment.  Open a command prompt or terminal and execute the following commands:
 
-    ```bash
+    ```
     cd /path/to/project/directory
     python -m venv env
     ```
@@ -42,11 +42,11 @@ Ensure that these are installed in your Python environment before running the pr
 4. **Activate Virtual Environment:** Activate the virtual environment. Depending on your operating system, use the appropriate command:
 
     - On Windows:
-    ```bash
+    ```
     .\env\Scripts\activate
     ```
     - On macOS and Linux:
-    ```bash
+    ```
     source env/bin/activate
     ```
   
@@ -74,7 +74,7 @@ pip install beautifulsoup4 requests pandas numpy scikit-learn
 
 
 
-##Additional Instructions:
+## Additional Instructions:
 Depending on the functionality you want to test, you can uncomment and run the specific code blocks related to data visualization, modeling, or specific URLs.
 
 Remember to deactivate the virtual environment once you're done by running the command `deactivate`.
@@ -96,11 +96,5 @@ After processing the movie data and training the model, you can make predictions
 print(df_sorties[['title', 'predicted_rating']])
 ```
 
-## License
 
-This project is licensed under the terms of the MIT license. The data used is subject to IMDB's usage policies.
-
-## Contact
-
-If you have any questions or comments about this project, please feel free to reach out.
 
